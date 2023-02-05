@@ -108,6 +108,7 @@ ul {
 .main-nav {
   margin-top: 20px;
   justify-content: space-between;
+  position: relative;
 }
 
 .company-logo img {
