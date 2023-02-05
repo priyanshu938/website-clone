@@ -74,6 +74,7 @@ ul {
   padding: 12px 24px;
   box-shadow: 0 0 2px var(--secondary-text-color);
   transition: 0.2s ease-out;
+  text-align: center;
 }
 .primary-button:hover {
   background-color: var(--accent-color-dark);
@@ -169,6 +170,7 @@ header {
 }
 .features-header {
   text-align: center;
+  margin-bottom: 40px;
 }
 .features-header-text {
   margin-bottom: 20px;
@@ -196,6 +198,9 @@ header {
 .big-feature-container {
   gap: 30px;
 }
+#second-big-feature {
+  flex-direction: row-reverse;
+}
 
 .feature-img img {
   width: 100%;
@@ -206,9 +211,13 @@ header {
 }
 
 /* examples section */
+.examples-section {
+  padding: 80px var(--padding-inline-section);
+}
 .examples-header {
   flex-direction: column;
   gap: 20px;
+  text-align: center;
 }
 .examples-area {
   justify-content: space-between;
@@ -257,6 +266,7 @@ header {
   flex-direction: column;
   gap: 30px;
   color: white;
+  text-align: center;
 }
 .cta-section-container p {
   color: white;
@@ -285,4 +295,5 @@ footer {
 .subfooter-container {
   justify-content: center;
   gap: 30px;
+  flex-wrap: wrap;
 }
